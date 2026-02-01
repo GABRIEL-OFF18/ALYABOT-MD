@@ -19,11 +19,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'})
 global.año = d.toLocaleDateString('es', {year: 'numeric'})
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
 
-var canal = 'https://whatsapp.com/channel/0029VbC34Nt42DchIWA0q11f' 
-var canal2 = 'https://whatsapp.com/channel/0029Vb6l62A5a240y2ClLp1M'
-var comunidad = 'https://whatsapp.com/channel/0029VbC34Nt42DchIWA0q11f'
+var canal = 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q' 
+var canal2 = 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q'
+var comunidad = 'https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q'
 var git = 'https://github.com/Shadow-nex'
-var github = 'https://github.com/Carlos13ra/GOJOBOT-MD' 
+var github = 'https://github.com/Carlos13ra/GOJOOT-MD' 
 var correo = 'shadowcore.xyz@gmail.com'
 global.redes = [canal, comunidad, git, github, correo].getRandom()
 
