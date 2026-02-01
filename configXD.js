@@ -32,11 +32,11 @@ global.kanekiAIJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.botname = "☃️ 𝗚𝗼𝗷𝗼𝘽𝙤𝙩-𝗠𝗗 ❄️"
-global.textbot = "gσᴊσ вσт ν3 • мα∂є ву ¢αяℓσѕ.яν"
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝙲𝙰𝚁𝙻𝙾𝚂.𝚁𝚅"
-global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ ƈαɾʅσʂ.ɾʋ"
-global.etiqueta = "✫ᴄᴀʀʟᴏs ʀᴀᴍɪʀᴇᴢ❄️ ⊹꙰ "
+global.botname = "🏰 BALDUINO-MD 🏰"
+global.textbot = "Balduino ν3 • мα∂є ву gabzz.яν"
+global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ gabzz.𝚁𝚅"
+global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ gabzz"
+global.etiqueta = "✫gabzz balduino❄️ ⊹꙰ "
 global.currency = "g᥆𝗍іᥴᥲs"
 global.banner = "https://raw.githubusercontent.com/AkiraDevX/uploads/main/uploads/1767454349524_108341.jpeg"
 global.icono = "https://raw.githubusercontent.com/AkiraDevX/uploads/main/uploads/1767407101485_190377.jpeg"
