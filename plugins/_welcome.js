@@ -36,7 +36,7 @@ async function generarBienvenida({ conn, userId, groupMetadata, chat }) {
 🌞 Miembros actuales: ${groupSize}
 🕒 Fecha y hora: ${fecha} | ${hora}
 
-> 🐦 Que tu estadía sea tranquila y llena de buenas vibras uwu 🌊
+> 🏰 BIENVENID@ A ESTE MARAVILLOSO CAMPO DE BATALLA  BALDUINO-MD🏰
 `.trim()
 
     return { pp, caption, mentions: [userId] }
@@ -74,7 +74,7 @@ async function generarDespedida({ conn, userId, groupMetadata, chat }) {
 🌿 Miembros restantes: ${groupSize}
 🕒 Fecha y hora: ${fecha} | ${hora}
 
-> 🌸 Te esperamos de nuevo para compartir buenas energías 🌊
+> 🏰 BALDUINO -MD HOO VAYA OTRO PERDEDOR SE FUE VE...🏰
 `.trim()
 
     return { pp, caption, mentions: [userId] }
