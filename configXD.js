@@ -46,7 +46,7 @@ global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 global.group = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
 global.community = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
-global.channel = "https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16"
+global.channel = "https://whatsapp.com/channel/0029VbCJFHmFy72CvfvzSR0Q"
 global.github = "https://github.com/Carlos13ra/GOJOBOT-MD"
 global.gmail = "shadowcore.xyz@gmail.com"
 global.ch = {
