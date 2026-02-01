@@ -7,7 +7,7 @@ const handler = async (m, { conn }) => {
   const empresa = 'Balduino ʙᴏᴛ ɪɴɪᴄ.';
   const about = '🏰 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐𝒓 𝒐𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝒅𝒆 Balduino - 𝑴𝑫';
   const correo = 'doxeosjr@gmail.com';
-  const web = 'https://CarlosRv.vercel.app/';
+  const web = 'https://gabriel-rouge.vercel.app';
   const direccion = 'Tokyo, Japón 🇯🇵';
   const fotoPerfil = 'https://files.catbox.moe/35dq1l.jpg';
 
