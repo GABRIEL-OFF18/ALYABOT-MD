@@ -6,8 +6,7 @@ const youtubeRegexID = /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([a-z
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   try {
     if (!text?.trim())
-      return conn.reply(m.chat, `* hey tu que deseas buscar?, enlace nombre 
-Balduino te espera se rápido.*`, m)
+      return conn.reply(m.chat, `*🏰 diga el nombre de la música o pon el enlace.*`, m)
 
     let videoIdMatch = text.match(youtubeRegexID)
     let search = await yts(videoIdMatch ? 'https://youtu.be/' + videoIdMatch[1] : text)
