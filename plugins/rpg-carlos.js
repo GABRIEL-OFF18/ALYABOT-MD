@@ -49,7 +49,7 @@ const handler = async (m, { conn, args, command }) => {
 │ 
 │ 🕒 Próximo reclamo: *24 horas*
 │ 
-╰━━━〔 💫 𝐆𝐨𝐣𝐨𝐁𝐨𝐭 - 𝐌𝐃 🗿 〕━━⬣
+╰━━━〔 🏰 BALDUINO - 𝐌𝐃 🏰 〕━━⬣
 `;
 
     await conn.sendMessage(
@@ -59,10 +59,10 @@ const handler = async (m, { conn, args, command }) => {
         mentions: [m.sender],
         contextInfo: {
           externalAdReply: {
-            title: '🎁 Recompensa de GojoBot',
+            title: '🎁 Recompensa de balduinoBot',
             body: 'Tus recompensas han sido entregadas!',
-            thumbnailUrl: 'https://files.catbox.moe/ob2s0m.jpg',
-            sourceUrl: 'https://github.com/Carlos13ra',
+            thumbnailUrl: 'https://files.catbox.moe/35dq1l.jpg',
+            sourceUrl: 'https://github.com/gabrie-ux',
             mediaType: 1,
             renderLargerThumbnail: true
           }
