@@ -103,7 +103,7 @@ const handler = async (m, { conn, usedPrefix: _p }) => {
       }))
 
     let nombreBot = global.namebot || 'Bot'
-    let bannerFinal = 'https://iili.io/FrbNIr7.jpg'
+    let bannerFinal = 'https://cdn.skyultraplus.com/uploads/u3/8c690f74356025e4.jpg'
 
     const botActual = conn.user?.jid?.split('@')[0].replace(/\D/g, '')
     const configPath = join('./JadiBots', botActual, 'config.json')
