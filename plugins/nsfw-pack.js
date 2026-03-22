@@ -34,7 +34,7 @@ conn.sendMessage(m.chat, {
 }
 
 handler.help = ['pack'];
-handler.tag = ['emox'];
+handler.tag = ['nsfw'];
 handler.command = ['pack', 'loli'];
 
 export default handler;
