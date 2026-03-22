@@ -9,5 +9,7 @@ m.react('✅');
 }
 
 handler.command = ['tetas'];
+handler.help = ['tetas']
+handler.tags = ['tools']
 
 export default handler;
