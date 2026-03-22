@@ -6,6 +6,7 @@ import { xpRange } from '../lib/levelling.js'
 const tags = {
   serbot: '⁞)᷼͝ㅤ֯ㅤֶָ֢  🥠 *`𝖩𝖺𝖽ı-ᗷᨣƚ𝗌`*     ׅ🥠ׁ᷒ᮬ    ׅ',
   tools: '⁞)᷼͝ㅤ֯ㅤֶָ֢  🪾  *`𝖳ᨣᨣ𝗅𝗌`*     ׅ🪾ׁ᷒ᮬ    ׅ',
+  buscador: '⁞)᷼͝ㅤ֯ㅤֶָ֢  🌳  *`SEARCH`*     🌳ׁ᷒ᮬ    ׅ',
   owner: '⁞)᷼͝ㅤ֯ㅤֶָ֢  🌴  *`Oɯ𝗇ᧉꭇ`*     ׅ🌴ׁ᷒ᮬ    ׅ',
   group: '⁞)᷼͝ㅤ֯ㅤֶָ֢  🪹  *`Gꭇ𝗎𝗉ᨣ𝗌`*     ׅ🪹ׁ᷒ᮬ    ׅ',
   downloader: '⁞)᷼͝ㅤ֯ㅤֶָ֢  🪾  *`Descargas`*     ׅ🪾ׁ᷒ᮬ    ׅ',
