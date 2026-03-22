@@ -48,34 +48,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
           id: "1"
         })
       },
-      {
-        name: "quick_reply",
-        buttonParamsJson: JSON.stringify({
-          display_text: "🎬 Video MP4",
-          id: "2"
-        })
-      },
-      {
-        name: "quick_reply",
-        buttonParamsJson: JSON.stringify({
-          display_text: "📄 Audio Doc",
-          id: "3"
-        })
-      },
-      {
-        name: "quick_reply",
-        buttonParamsJson: JSON.stringify({
-          display_text: "📁 Video Doc",
-          id: "4"
-        })
-      },
-      {
-        name: "quick_reply",
-        buttonParamsJson: JSON.stringify({
-          display_text: "🎙️ Nota de Voz",
-          id: "5"
-        })
-      }
+      
     ]
 
     const msg = generateWAMessageFromContent(m.chat, {
