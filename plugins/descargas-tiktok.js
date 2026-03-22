@@ -9,7 +9,7 @@ let handler = async (m, { conn, args }) => {
 
     if (!url || !url.includes('tiktok.com')) {
         await m.react('🌸')
-        return m.reply(`💗 *Pega el link de TikTok darling~* 🌸\n\nEjemplo:\n*#tt https://vm.tiktok.com/xxxxxx/*\n\nO responde a un mensaje con el link`)
+        return m.reply(`💗 *Pega el link de TikTok~* 🌸\n\nEjemplo:\n*#tt https://vm.tiktok.com/xxxxxx/*\n\nO responde a un mensaje con el link`)
     }
 
     await m.react('🍬')
@@ -22,7 +22,7 @@ let handler = async (m, { conn, args }) => {
         if (!json.status || !json.data?.download?.url) throw new Error('No se encontró video')
 
         const videoBuffer = await fetch(json.data.download.url).then(r => r.buffer())
-        const caption = `💞 *¡TikTok descargado con éxito darling!* 🌸\n\n` +
+        const caption = `💞 *¡TikTok descargado con éxito !* 🌸\n\n` +
                         `✨ *Autor:* ${json.data.autor || 'TikTok'}\n` +
                         `📝 *Título:* ${json.data.titulo || 'Sin descripción'}\n` +
                         `👁️ *Vistas:* ${json.data.vistas?.toLocaleString() || '?'} | ❤️ ${json.data.likes?.toLocaleString() || '?'}\n\n` +
