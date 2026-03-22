@@ -28,7 +28,7 @@ let handler = async (m, { conn, args }) => {
                         `👁️ *Vistas:* ${json.data.vistas?.toLocaleString() || '?'} | ❤️ ${json.data.likes?.toLocaleString() || '?'}\n\n` +
                         `¡Disfrútalo mi amor~ 💗 No me dejes sola sin ver el video!`
 
-        await conn.sendMessage(m.chat, { video: videoBuffer, caption }, { quoted: m })
+        await conn.sendMessage(m.chat, { video: videoBuffer, caption }, { quoted: m }) { text: message, ...rcanal },
         await m.react('💗')
 
     } catch (e) {
