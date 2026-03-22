@@ -38,7 +38,7 @@ let handler = async (m, { conn, args }) => {
 }
 
 handler.help    = ['tt <url>', 'tiktok <url>']
-handler.tags    = ['donwloader']
+handler.tags    = ['downloader']
 handler.command = ['tt', 'tiktok', 'tiktokdl']
 
 export default handler
